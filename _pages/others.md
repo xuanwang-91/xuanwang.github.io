@@ -21,7 +21,7 @@ nav: true
 
 
 
-#### Students
-- 2018级 雷明威 优秀本科毕业论文
+#### Awards and Honors
+- 指导2018级雷明威获烟台大学优秀本科毕业论文
 
 
