@@ -18,7 +18,7 @@ nav: true
 </div>
 </details>
 
-##### Books
+<!--##### Books
 
 <div class="publications">
 
@@ -26,7 +26,7 @@ nav: true
   {% bibliography -f books -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div>-->
 
 ##### Papers
 
