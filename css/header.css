@@ -1,0 +1,150 @@
+/* 头部容器 */
+.header {
+	width: 960px;
+	height: 60px;
+	background-color: white;
+	position: sticky;
+	margin: auto;
+	top: 0;
+	z-index: 10;
+	border-bottom: 1px solid #0366d6;
+
+}
+/* .boderline{
+	width: 960px;
+	margin: auto;
+	height: 1px;
+	position: absolute;
+	top: 60;
+	/* z-index: -90; 
+	background-color: #0366d6;
+	
+} */
+
+.headerContent {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* 导航栏 */
+.userbar {
+	width: 480px;
+	height: 100%;
+	float: right;
+	position: absolute;
+	right: 0px;
+	margin: 0px;
+}
+
+.userbar-li {
+	width: 120px;
+	height: 100%;
+	color: #333333;
+}
+
+.userbar ul {
+	height: 100%;
+	display: flex;
+	list-style: none;
+}
+
+/* .userbar ul li{
+	width: 85px;
+	height: 100%;
+	color: #000000;
+} */
+.userbar ul li a {
+	width: 100%;
+	font-size: 18px;
+	color: inherit;
+	/* 	margin-left: 25px;
+	margin-right: 25px; */
+	display: block;
+
+	/* font-weight: 600; */
+	height: 59px;
+	line-height: 59px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* .userbar ul li a:hover{
+	width: 100%;
+	font-size: 14px;
+	color: white;
+	background-color: #b9202f;
+
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+} */
+.userbar-li-active {
+	width: 120px;
+	font-weight: 700;
+	height: 100%;
+	color: #333333;
+	background-color: #0366d6;
+	color: white;
+}
+
+/* 企业log */
+.headerlogo {
+	width: 240px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	display: flex;
+	align-items: center;
+}
+
+.headerlogo img {
+	width: 200px;
+}
+
+.headerlogo a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+	color: #0366d6;
+}
+
+.headerlogo a:hover {
+	text-decoration: underline;
+	font-size: 24px;
+	font-weight: 600;
+	color: #0366d6;
+}
+
+.top {
+	/* background-color: pink; */
+	width: 150px;
+	height: 174px;
+	position: fixed;
+	bottom: 80px;
+	right: 0px;
+	z-index: 12;
+	cursor: pointer;
+	background-image: url('../img/totop.png');
+	visibility: hidden;
+}
+
+.top img {
+	width: 100%;
+}
+
+.DevideArea {
+	width: 100%;
+	height: 140px;
+	position: relative;
+	background-image: url('../img/img2.png');
+	background-size: 100% 100%;
+}

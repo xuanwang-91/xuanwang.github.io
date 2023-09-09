@@ -1,0 +1,9 @@
+.foot {
+	width: 960px;
+	height: 60px;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 20px;
+	/* background-color: #eeeeee; */
+}
